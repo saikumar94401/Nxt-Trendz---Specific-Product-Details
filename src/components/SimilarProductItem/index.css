@@ -1,0 +1,64 @@
+.each-similar-product-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.each-similar-product-heading {
+  color: #475569;
+}
+
+.each-similar-product-list {
+  list-style: none;
+  display: flex;
+}
+
+.each-similar-product-item {
+  margin-right: 20px;
+}
+.each-similar-product-image {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.each-similar-product-title {
+  color: #171f46;
+  font-weight: bold;
+}
+
+.each-similar-product-brand {
+  color: #616e7c;
+}
+
+.each-similar-product-price-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.each-similar-product-price {
+  color: #171f46;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.each-similar-product-item-star-container {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.each-similar-product-item-Aistar {
+  color: white;
+  height: 16px;
+}
+
+.each-similar-product-stars-count {
+  color: white;
+  margin-right: 5px;
+  font-size: 16px;
+}

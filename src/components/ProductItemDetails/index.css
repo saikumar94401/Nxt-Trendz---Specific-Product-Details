@@ -1,0 +1,150 @@
+.product-item-details-container {
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+
+.product-item-image {
+  height: 500px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.product-item-content-container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.product-item-content-heading {
+  color: #475569;
+  font-size: 45px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.product-item-price {
+  color: #171f46;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.product-item-star-container {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.product-item-Aistar {
+  color: white;
+  height: 16px;
+}
+
+.stars-count {
+  color: white;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.product-item-start-review-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-item-reviews {
+  margin-left: 15px;
+}
+.product-item-description {
+  color: #616e7c;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.product-item-availability {
+  color: #12022f;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.product-item-availability-count {
+  color: #616e7c;
+}
+
+.hr-line {
+  margin-top: 15px;
+
+  margin-bottom: 0;
+}
+
+.product-item-quantity-container {
+  display: flex;
+  align-items: center;
+  color: #616e7c;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.product-item-quantity {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.plus-minus-buttons {
+  border: none;
+  background-color: transparent;
+}
+
+.inc-dec-icon {
+  font-size: 16px;
+  color: #616e7c;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-view-image {
+  height: 300px;
+}
+
+.failure-view-heading {
+  color: #1e293b;
+}
+
+.continue-shopping {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.product-item-avail-container {
+  display: flex;
+  align-items: center;
+}
